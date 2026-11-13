@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 4.4)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(untitled main.cpp
+        Tournament.cpp
+        Tournament.h
+        Agent.cpp
+        Agent.h
+        Strategy.h
+)
