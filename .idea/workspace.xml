@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Projet_2" targetName="Projet_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20278ad6-a439-4c1c-a80f-ad01dc3a6166" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Projet_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Agent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Agent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllD.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScoreCalculator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScoreCalculator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tournament.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tournament.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4317582576197663" />
+      <entry key="MS500" value="3.5011913740730423" />
+      <entry key="S2" value="6.174626042053515" />
+      <entry key="S5" value="9.388369434203497" />
+      <entry key="S10" value="11.620076579533555" />
+      <entry key="S30" value="13.712209011496519" />
+      <entry key="S60" value="14.333406246704918" />
+      <entry key="M2" value="14.6608167526844" />
+      <entry key="M5" value="14.862885938402243" />
+      <entry key="M10" value="14.931200466395413" />
+      <entry key="M15" value="14.954079577343347" />
+      <entry key="M30" value="14.977012712372057" />
+      <entry key="H1" value="14.988848637769527" />
+      <entry key="H2" value="15.154911284095515" />
+      <entry key="H4" value="18.444877196128573" />
+      <entry key="D1" value="59.38870564640512" />
+      <entry key="W1" value="83.7896919295564" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="2.624E-320" />
+      <entry key="M2" value="1.6199921796318583E-160" />
+      <entry key="M5" value="1.2128446231675108E-64" />
+      <entry key="M10" value="1.101292251478921E-32" />
+      <entry key="M15" value="4.949960375382567E-22" />
+      <entry key="M30" value="2.2248506411403377E-11" />
+      <entry key="H1" value="4.716832243296701E-6" />
+      <entry key="H2" value="0.0021718269367738993" />
+      <entry key="H4" value="0.04660286404046317" />
+      <entry key="D1" value="0.5998860571157798" />
+      <entry key="W1" value="0.9295987654368033" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3479146470481649" />
+      <entry key="MS500" value="3.453457674699641" />
+      <entry key="S2" value="6.152444773814262" />
+      <entry key="S5" value="9.37370879567359" />
+      <entry key="S10" value="11.610683337216235" />
+      <entry key="S30" value="13.70842833740584" />
+      <entry key="S60" value="14.33141917443535" />
+      <entry key="M2" value="14.659797702062951" />
+      <entry key="M5" value="14.862472016642887" />
+      <entry key="M10" value="14.930992440095118" />
+      <entry key="M15" value="14.95394065524732" />
+      <entry key="M30" value="14.976943132113131" />
+      <entry key="H1" value="14.988818512923284" />
+      <entry key="H2" value="15.15705997888768" />
+      <entry key="H4" value="18.49140569345594" />
+      <entry key="D1" value="59.98844107834116" />
+      <entry key="W1" value="84.71925713708667" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="3.0.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3M3X7z1mgn2p7e4xLIbYS7WGGEs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CidrDebugProfileConversion": "true",
+    "CidrDebugProfileConversion262": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/louis/Documents/Université/Master/M1/POA/Projet_2/CMakeLists.txt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/louis/CLionProjects/untitled/main.cpp",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Projet_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projet_2" TARGET_NAME="Projet_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Projet_2" RUN_TARGET_NAME="Projet_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.Projet_2",
+        "cmake": "CMakeBuildProfile:Debug"
+      },
+      "second": "1110b94a-25dd-4624-b0f5-da38eb4ed263"
+    }
+  ],
+  "modificationCount": 8
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20278ad6-a439-4c1c-a80f-ad01dc3a6166" name="Changes" comment="" />
+      <created>1794580061808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794580061808</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>

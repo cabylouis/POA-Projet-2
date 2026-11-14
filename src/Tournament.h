@@ -5,17 +5,18 @@
 #include <vector>
 
 #include "Agent.h"
+#include "ScoreCalculator.h"
 
 class Tournament {
 public:
-    Tournament(const std::vector<Agent>& players, const int nbTours);
+    Tournament(const std::vector<Agent>& players, const ScoreCalculator calculator, const int nbTours);
 
-    void execute() const ;
+    void execute() ;
 
 private:
     std::vector<Agent> players;
+    ScoreCalculator calculator;
     int nbTours;
 };
-
 
 #endif
