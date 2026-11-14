@@ -20,9 +20,13 @@ void Tournament::execute() {
 
         calculator.computeScore(players, currentTurnMoves);
 
-        for (Agent& player : players) {
-            for (const char move : currentTurnMoves) {
-                player.updateMemory(move);
+        for (int j = 0; j < players.size(); j++) {
+            for (int k = 0 ; k < currentTurnMoves.size() ; k++) {
+                if (j == k) {
+                    players[j].updateOwnMemory(currentTurnMoves[k]);
+                } else {
+                    players[j].updateFoesMemory(currentTurnMoves[k]);
+                }
             }
         }
 
@@ -31,9 +35,17 @@ void Tournament::execute() {
 
     for (const Agent& player : players) {
         std::cout << player.getName() << "'s score : " << player.getScore() << "\n";
-        std::cout << player.getName() << "'s memory : \n";
+        std::cout << player.getName() << "'s own memory : \n";
 
-        for (const char c : player.getMemory()) {
+        for (const char c : player.getOwnMemory()) {
+            std::cout << c << " ";
+        }
+
+        std::cout << "\n\n";
+
+        std::cout << player.getName() << "'s foes memory : \n";
+
+        for (const char c : player.getFoesMemory()) {
             std::cout << c << " ";
         }
 

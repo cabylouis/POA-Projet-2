@@ -5,7 +5,7 @@
 
 class AllD : public Strategy {
 public:
-    char applyStrategy() const override;
+    char applyStrategy(Agent& player) const override;
 
 };
 

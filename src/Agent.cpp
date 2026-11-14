@@ -1,8 +1,7 @@
 #include "Agent.h"
-#include "Strategy.h"
+#include "strategy/Strategy.h"
 
-Agent::Agent(const std::string& name, const std::shared_ptr<Strategy>& strategy, const int score, const std::vector<char>& memory) :
-name(name) , strategy(strategy), score(score), memory(memory) {}
+Agent::Agent(const std::string& name, const std::shared_ptr<Strategy>& strategy) : name(name) , strategy(strategy) {}
 
 const std::string& Agent::getName() const {
     return name;
@@ -16,14 +15,22 @@ void Agent::updateScore(const int addPoint) {
     score += addPoint;
 }
 
-const std::vector<char>& Agent::getMemory() const {
-    return memory;
+const std::vector<char>& Agent::getOwnMemory() const {
+    return ownMemory;
 }
 
-void Agent::updateMemory(const char s) {
-    memory.push_back(s);
+void Agent::updateOwnMemory(const char s) {
+    ownMemory.push_back(s);
 }
 
-char Agent::playTurn() const {
-    return strategy->applyStrategy();
+const std::vector<char>& Agent::getFoesMemory() const {
+    return foesMemory;
+}
+
+void Agent::updateFoesMemory(const char s) {
+    foesMemory.push_back(s);
+}
+
+char Agent::playTurn() {
+    return strategy->applyStrategy(*this);
 }

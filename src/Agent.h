@@ -5,11 +5,11 @@
 #include <string>
 #include <vector>
 
-#include "Strategy.h"
+#include "strategy/Strategy.h"
 
 class Agent {
 public:
-    Agent(const std::string& name, const std::shared_ptr<Strategy>& strategy, int score, const std::vector<char>& memory);
+    Agent(const std::string& name, const std::shared_ptr<Strategy>& strategy);
 
     const std::string& getName() const ;
 
@@ -17,17 +17,22 @@ public:
 
     void updateScore(int addPoint) ;
 
-    const std::vector<char>& getMemory() const  ;
+    const std::vector<char>& getOwnMemory() const  ;
 
-    void updateMemory(char s) ;
+    void updateOwnMemory(char s) ;
 
-    char playTurn() const ;
+    const std::vector<char>& getFoesMemory() const  ;
+
+    void updateFoesMemory(char s) ;
+
+    char playTurn() ;
 
 private:
     std::string name;
     std::shared_ptr<Strategy> strategy;
-    int score;
-    std::vector<char> memory;
+    int score = 0;
+    std::vector<char> ownMemory;
+    std::vector<char> foesMemory;
 };
 
 
